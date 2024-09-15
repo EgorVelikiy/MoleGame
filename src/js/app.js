@@ -18,9 +18,7 @@ class holeWidget {
     mole.classList.add("mole");
 
     const hole = this.getHole(index);
-    console.log(index);
     hole.appendChild(mole);
-    console.log("from add");
   }
 
   removeMole() {
