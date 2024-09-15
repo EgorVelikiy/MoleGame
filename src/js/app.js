@@ -36,12 +36,12 @@ class holeWidget {
       if (this.prevInd >= 0) {
         this.removeMole(this.prevInd);
       }
-      
+
       this.addMole(this.currInd);
       this.prevInd = this.currInd;
     }, 1000);
   }
 }
 
-const start = new holeWidget(document.querySelector('.hole-game'))
-start.nextHole()
+const start = new holeWidget(document.querySelector(".hole-game"));
+start.nextHole();
