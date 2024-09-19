@@ -5,17 +5,70 @@ body {
 .container {
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.status {
+    display: block;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: rgb(160, 120, 120);
+    position: absolute;
+    width: 400px;
+    height: auto;
+    text-align:center;
+    background-color: antiquewhite;
+}
+
+.start_game {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 120px;
+    height: 60px;
+    border-radius: 20%;
+    background-color: rgb(38, 221, 14);
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.status_text {
+    color: #000;
+}
+
+.start_game_started {
+    background-color: rgb(141, 150, 140);
+}
+
+.restart_game {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 250px;
+    width: 120px;
+    height: 60px;
+    border-radius: 20%;
+    background-color: rgb(184, 54, 54);
+    cursor: pointer;
+    font-size: 24px;
 }
 
 .hole-game {
     width: 800px;
-    height: 800px;
+    height: auto;
+    margin-top: 170px;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: space-around;
+    cursor: pointer;
 }
 
 .hole {
+    display: block;
     width: 150px;
     height: 150px;
     margin: 0 15px 30px;
