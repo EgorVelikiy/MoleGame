@@ -1,0 +1,37 @@
+.start_game {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(42, 184, 23);
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0 2px 8px 0 #999;
+}
+
+.restart_game {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 250px;
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(184, 54, 54);
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0 2px 8px 0 #999;
+}
+
+.start_game:hover {
+    background-color: rgb(37, 236, 11);
+}
+
+.restart_game:hover {
+    background-color: rgb(216, 33, 33);
+}
